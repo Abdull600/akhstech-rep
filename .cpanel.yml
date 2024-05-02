@@ -1,0 +1,13 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/user/public_html/
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp inner-page.html $DEPLOYPATH
+ - /bin/cp portfolio-details.html $DEPLOYPATH
+ - /bin/cp style.css $DEPLOYPATH
+ - /bin/cp assets $DEPLOYPATH
+ - /bin/cp/ forms $DEPLOYPATH
+ - /bin/cp forms $DEPLOYPATH
+
+ 
